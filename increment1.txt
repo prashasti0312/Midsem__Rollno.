@@ -1,0 +1,12 @@
+#include <iostream.h>
+using namespace std;
+int main()
+{
+clrscr;
+int a,b;
+cout<<"Enter the number to be incremented"<<endl;
+cin>>a;
+b = a+1;
+cout<<"The number after incrementation is:"<<b;
+getch()
+}
