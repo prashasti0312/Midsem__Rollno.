@@ -2,11 +2,17 @@
 using namespace std;
 int main()
 {
+
 clrscr;
-int a,b;
-cout<<"Enter the number to be incremented"<<endl;
-cin>>a;
-b = a+1;
-cout<<"The number after incrementation is:"<<b;
+
+int a,b;       //taking variables
+
+cout<<"Enter the number to be incremented"<<endl;  //asking the user to enter                                                      the number to be incremented   
+cin>>a;                                   //taking number from the user
+     
+b = a+1;                                  //incrementing the number
+
+cout<<"The number after incrementation is:"<<b; //printing the number after                                                        incrementation 
 getch()
+
 }
